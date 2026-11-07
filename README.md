@@ -13,13 +13,15 @@ Abre [index.html](./index.html) en un navegador moderno. La aplicación funciona
 - Bloques de variables con nombre personalizable: asignar, incrementar y calcular.
 - Operaciones aritméticas: suma, resta, multiplicación, división y resto.
 - Condiciones con comparación de variables: mayor, menor, igual, mayor/igual, menor/igual y distinto.
-- Mundo editable en cuadrícula con personaje, obstáculos y monedas.
+- Mundo editable en cuadrícula con hasta 12 personajes independientes, obstáculos y monedas.
+- Selector de personaje activo, creación/eliminación de personajes y colisiones entre ellos.
+- Cada personaje conserva su posición, orientación y visibilidad; los programas actúan sobre el personaje seleccionado.
 - Tres escenarios de ejemplo, recogida de monedas y variables.
 - Guardado automático local, guardado manual e importación/exportación de proyectos JSON.
 - Interfaz adaptable a pantallas pequeñas y grandes.
 
 ## Estado y limitaciones
-Esta es una implementación inicial funcional. El motor de mundo usa una cuadrícula 2D sencilla: todavía no es un motor de plataformas con gravedad, físicas continuas, animaciones avanzadas ni colisiones complejas. El editor permite bloques anidados, aunque su experiencia visual y accesibilidad todavía pueden mejorarse. La ejecución paso a paso avanza por instrucciones, incluidas las que están dentro de contenedores.
+Esta es una implementación inicial funcional. El motor de mundo usa una cuadrícula 2D sencilla con varios personajes y colisiones por casilla: todavía no es un motor de plataformas con gravedad, físicas continuas, animaciones avanzadas ni colisiones complejas. El editor permite bloques anidados, aunque su experiencia visual y accesibilidad todavía pueden mejorarse. La ejecución paso a paso avanza por instrucciones, incluidas las que están dentro de contenedores.
 
 No se ha completado una batería de pruebas automatizadas ni una validación en todos los navegadores y dispositivos. Las funciones deben probarse en el navegador de destino antes de usarse en un entorno educativo.
 
