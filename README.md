@@ -20,13 +20,15 @@ Abre [index.html](./index.html) en un navegador moderno. La aplicación funciona
 - Herramientas de dibujo: lápiz, borrador, cubo de pintura por zonas contiguas, líneas y rectángulos.
 - Historial de deshacer y rehacer (hasta 40 cambios) y limpieza/relleno del lienzo.
 - Exportación de sprites a PNG ampliado a 256 × 256 píxeles, conservando la transparencia.
+- Animación de sprites con hasta 24 fotogramas independientes por personaje.
+- Crear, duplicar, seleccionar y eliminar fotogramas; vista previa en el escenario a 2, 6, 8 o 12 FPS.
 - Los sprites dibujados aparecen en el mundo y se guardan dentro del proyecto exportado/importado.
 - Tres escenarios de ejemplo, recogida de monedas y variables.
 - Guardado automático local, guardado manual e importación/exportación de proyectos JSON.
 - Interfaz adaptable a pantallas pequeñas y grandes.
 
 ## Estado y limitaciones
-Esta es una implementación inicial funcional. El motor de mundo usa una cuadrícula 2D sencilla con varios personajes y colisiones por casilla: todavía no es un motor de plataformas con gravedad, físicas continuas, animaciones avanzadas ni colisiones complejas. El editor permite bloques anidados y dibujar sprites de 16 × 16 píxeles; todavía no incluye animaciones por fotogramas, redimensionado del lienzo ni capas. La ejecución paso a paso avanza por instrucciones, incluidas las que están dentro de contenedores.
+Esta es una implementación inicial funcional. El motor de mundo usa una cuadrícula 2D sencilla con varios personajes y colisiones por casilla: todavía no es un motor de plataformas con gravedad, físicas continuas, animaciones avanzadas ni colisiones complejas. El editor permite bloques anidados y dibujar sprites de 16 × 16 píxeles; todavía no incluye redimensionado del lienzo ni capas; las animaciones están limitadas a 24 fotogramas de 16 × 16. La ejecución paso a paso avanza por instrucciones, incluidas las que están dentro de contenedores.
 
 No se ha completado una batería de pruebas automatizadas ni una validación en todos los navegadores y dispositivos. Las funciones deben probarse en el navegador de destino antes de usarse en un entorno educativo.
 
